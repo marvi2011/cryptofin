@@ -1,0 +1,22 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex-grow: 1;
+}
+.imagen-carousel{
+    height: 400px;
+    object-fit: cover;
+}
+@media all and (min-width:992px){
+
+    .imagen-carousel{
+        height: 450px;
+        object-position: 50% 30%;
+    }
+}
+textarea{
+    resize: none;
+}
